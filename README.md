@@ -1,50 +1,133 @@
-# 🚀 First GenAI Project
+# First Generative AI Project
 
-This is my first GPT-4–powered Python app using the OpenAI API — built as part of my Generative AI Consultant portfolio.
+![Build](https://img.shields.io/github/actions/workflow/status/fndveteranuk/first-genai-project/ci.yml?branch=main)
+![Python 3.13](https://img.shields.io/badge/python-3.13-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
----
-
-## 💡 What It Does
-
-This script sends a prompt to GPT-4 using secure `.env` key handling and prints the AI’s response to the terminal.
+*A minimal GPT-4 starter repo for secure, rapid GenAI prototyping.*
 
 ---
 
-## 🔎 Why It Matters
-
-It’s a **secure, modular, and deploy-ready** base for building GenAI tools — the kind I’ll use for:
-
-- 🧠 Automating knowledge workflows
-- 👥 Supporting veterans and inclusive services
-- 🧰 Experimenting with GenAI pipelines (LangChain, n8n, Vertex AI)
-
----
-
-## ⚙️ Tech Stack
-
-- `Python 3.13`
-- `OpenAI API` (v1 client)
-- `python-dotenv` (for key management)
-- `PyCharm` (IDE)
-- `Git + GitHub` (version control)
+## Table of Contents
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Tech Stack](#tech-stack)
+- [Mission Alignment](#mission-alignment)
+- [Usage](#usage)
+- [Example Output](#example-output)
+- [Next Steps / Roadmap](#next-steps--roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ---
 
-## ✅ Next Steps
+## Overview
 
-- [ ] Add a CLI interface
-- [ ] Dockerize the app
-- [ ] Convert to a LangChain RAG module
-- [ ] Publish on HuggingFace or Replicate
+This Python application uses OpenAI’s **GPT-4** API to send prompts securely with environment-variable handling (`.env`).  
+It serves as a **modular, secure, and deploy-ready** foundation for building advanced Generative AI tools.
 
----
+Built with a focus on:
 
-## 🧭 Mission Alignment
-
-This is part of [FNDVeteran.UK](https://fndveteran.uk) — an AI-first advocacy project using GenAI to promote digital inclusion for disabled veterans.
+- 🧠 Automating knowledge workflows  
+- 👥 Supporting veterans and inclusive services  
+- 🧰 Experimenting with GenAI pipelines such as **LangChain**, **n8n**, and **Vertex AI**
 
 ---
 
-## 📜 License
+## Getting Started
 
-MIT — free to use, adapt, and share. Just don’t expose your `.env` like I nearly did. 😅
+### Prerequisites
+
+- **Python 3.13** — [Download](https://www.python.org/downloads/)  
+- **OpenAI API key** — [Sign up](https://platform.openai.com/signup)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/fndveteranuk/first-genai-project.git
+cd first-genai-project
+
+# Install dependencies
+pip install -r requirements.txt   # see requirements.txt for exact versions
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env to add your OpenAI API key securely
+```
+---
+
+## Tech Stack
+
+- Tool / Library	Version	Purpose
+- python	3.13	Core language
+- openai	1.13.3	GPT-4 API client
+- python-dotenv	1.0.1	Secure key management
+- PyCharm	2024.1	IDE
+- git, GitHub	n/a	Version control & CI
+
+See ([requirements.txt](requirements.txt)) for the complete, pinned dependency list.
+
+---
+
+## Mission Alignment
+
+This project is part of FNDVeteran.UK — an AI-first advocacy initiative promoting digital inclusion for disabled veterans.
+
+---
+
+## Usage
+Run the script by providing a prompt to GPT-4:
+
+```bash
+python main.py --prompt "Hello, GPT-4!"
+```
+
+---
+
+## Example Output
+
+```bash
+GPT-4 → Hello! How can I help you today?
+```
+
+---
+
+## Next Steps / Roadmap
+
+ [#12] Add a Command-Line Interface (CLI) for interactive use — Q3 2025
+
+ [#22] Dockerize the app for easy deployment — Q4 2025
+
+ [#34] Integrate with LangChain for Retrieval-Augmented Generation — Q1 2026
+
+ [#45] Publish on HuggingFace or Replicate for public demos — Q1 2026
+
+(Bracket numbers link to GitHub issues once created.)
+
+---
+
+## Contributing
+
+Contributions are welcome!
+Please read ([CONTRIBUTING.md](CONTRIBUTING.md)) and adhere to our Code of Conduct.
+To suggest features or report bugs, open an issue.
+
+## License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+## Acknowledgments
+
+- OpenAI for GPT-4
+
+- DeepLearning.AI & Coursera for foundational GenAI courses
+
+- Google Cloud Skills Boost & DataCamp for up-skilling resources
+
+- The veterans and hidden-disability communities inspiring FNDVeteran.UK
+
+## Contact
+<br>- Website » [FNDVeteran.UK](…)<br>- LinkedIn » [linkedin.com/in/jamiescottcraik](…)<br>- Email » creator@fndveteran.uk<br>
