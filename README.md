@@ -61,14 +61,15 @@ cp .env.example .env
 
 ## Tech Stack
 
-- Tool / Library	Version	Purpose
-- python	3.13	Core language
-- openai	1.13.3	GPT-4 API client
-- python-dotenv	1.0.1	Secure key management
-- PyCharm	2024.1	IDE
-- git, GitHub	n/a	Version control & CI
+| Tool / Library | Version | Purpose |
+|--------------- |---------|---------|
+| `python` | **3.13** | Core language |
+| `openai` | **1.13.3** | GPT-4 API client |
+| `python-dotenv` | **1.0.1** | Secure key management |
+| `PyCharm` | **2024.1** | IDE |
+| `git`, `GitHub` | — | Version control & CI |
 
-See ([requirements.txt](requirements.txt)) for the complete, pinned dependency list.
+See **[requirements.txt](requirements.txt)** for the full, pinned dependency list.
 
 ---
 
@@ -97,23 +98,18 @@ GPT-4 → Hello! How can I help you today?
 
 ## Next Steps / Roadmap
 
- [#12] Add a Command-Line Interface (CLI) for interactive use — Q3 2025
-
- [#22] Dockerize the app for easy deployment — Q4 2025
-
- [#34] Integrate with LangChain for Retrieval-Augmented Generation — Q1 2026
-
- [#45] Publish on HuggingFace or Replicate for public demos — Q1 2026
-
-(Bracket numbers link to GitHub issues once created.)
+- [ ] **[#12]** Add a Command-Line Interface (CLI) — **Q3 2025**
+- [ ] **[#22]** Dockerize the app — **Q4 2025**  
+- [ ] **[#34]** Integrate with **LangChain** (RAG) — **Q1 2026**  
+- [ ] **[#45]** Publish on **HuggingFace / Replicate** — **Q1 2026**
 
 ---
 
 ## Contributing
 
-Contributions are welcome!
-Please read ([CONTRIBUTING.md](CONTRIBUTING.md)) and adhere to our Code of Conduct.
-To suggest features or report bugs, open an issue.
+Contributions are welcome!  
+Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** and adhere to our  
+**[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)**.
 
 ## License
 
@@ -130,4 +126,4 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 - The veterans and hidden-disability communities inspiring FNDVeteran.UK
 
 ## Contact
-<br>- Website » [FNDVeteran.UK](…)<br>- LinkedIn » [linkedin.com/in/jamiescottcraik](…)<br>- Email » creator@fndveteran.uk<br>
+<br>- Website » [FNDVeteran.UK](…) <br>- LinkedIn » [linkedin.com/in/jamiescottcraik](…) <br>- Email » creator@fndveteran.uk<br>
