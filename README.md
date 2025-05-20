@@ -47,7 +47,7 @@ Built with a focus on:
 
 ```bash
 # Clone the repository
-git clone https://github.com/fndveteranuk/first-genai-project.git
+git clone https://github.com/neuroallyai/first-genai-project.git
 cd first-genai-project
 
 # Install dependencies
@@ -75,7 +75,7 @@ See **[requirements.txt](requirements.txt)** for the full, pinned dependency lis
 
 ## Mission Alignment
 
-This project is part of FNDVeteran.UK — an AI-first advocacy initiative promoting digital inclusion for disabled veterans.
+This project is part of NeuroAlly.AI — an AI-first advocacy initiative promoting digital inclusion for disabled veterans.
 
 ---
 
@@ -126,4 +126,4 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 - The veterans and hidden-disability communities inspiring FNDVeteran.UK
 
 ## Contact
-<br>- Website » [FNDVeteran.UK](…) <br>- LinkedIn » [linkedin.com/in/jamiescottcraik](…) <br>- Email » creator@fndveteran.uk<br>
+<br>- Website » [NeuroAlly.AI](…) <br>- LinkedIn » [linkedin.com/in/jamiescottcraik](…) <br>- Email » creator@fndveteran.uk<br>
