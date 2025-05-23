@@ -1,9 +1,10 @@
-# First Generative AI Project
 
-[![NeuroAlly.AI Project](https://img.shields.io/badge/NeuroAlly.AI-Roadmap%20Project-2856f7)](https://neuroally.ai/)
+# First Generative AI Project [![NeuroAlly.AI Project](https://img.shields.io/badge/NeuroAlly.AI-Roadmap%20Project-2856f7)](https://neuroally.ai/) 
 
 [![OpenAI API](https://img.shields.io/badge/OpenAI-API-10a37f?logo=openai)](https://platform.openai.com/docs/api-reference)
 [![Gemini API](https://img.shields.io/badge/Gemini-API-4285F4?logo=google)](https://ai.google.dev/gemini-api/docs)
+---
+
 [![Jupyter](https://img.shields.io/badge/Launch-Jupyter%20Notebook-orange?logo=jupyter)](https://mybinder.org/v2/gh/neuroallyai/first-genai-project/HEAD?labpath=notebooks%2F)
 [![Anaconda](https://img.shields.io/badge/Anaconda-Environment-44A833?logo=anaconda)](https://anaconda.org/)
 ![Build](https://img.shields.io/github/actions/workflow/status/fndveteranuk/first-genai-project/ci.yml?branch=main)
