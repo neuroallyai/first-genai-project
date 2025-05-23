@@ -1,5 +1,6 @@
 # First Generative AI Project
 
+[![NeuroAlly.AI Project](https://img.shields.io/badge/NeuroAlly.AI-Roadmap%20Project-2856f7)](https://neuroally.ai/)
 ![Build](https://img.shields.io/github/actions/workflow/status/fndveteranuk/first-genai-project/ci.yml?branch=main)
 ![Python 3.13](https://img.shields.io/badge/python-3.13-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
